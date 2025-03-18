@@ -1,9 +1,13 @@
-## Installation
-
-Install my-project with npm
+## Install and Enable ly (Optional) 
 
 ```bash
-  sudo pacman -S --needed git base-devel && git clone https://github.com/Zephijo/PersonalMeow.git && cp -r ~/PersonalMeow/hypr/* ~/.config/hypr && cp -r ~/PersonalMeow/kitty/* ~/.config/kitty && cp -r ~/PersonalMeow/neofetch/* ~/.config/neofetch && cp -r ~/PersonalMeow/waybar/* ~/.config/waybar && echo "          _                 _   
+sudo pacman -S ly && sudo systemctl enable ly
+```
+
+## Install Essentials 
+
+```bash
+  sudo pacman -S --needed git base-devel kitty vim pipewire pipewire-pulse wofi dolphin hyprlock hypridle hyprpaper waybar && git clone https://github.com/Zephijo/PersonalMeow.git && cp -r ~/PersonalMeow/hypr/* ~/.config/hypr && cp -r ~/PersonalMeow/kitty/* ~/.config/kitty && cp -r ~/PersonalMeow/neofetch/* ~/.config/neofetch && cp -r ~/PersonalMeow/waybar/* ~/.config/waybar && echo "          _                 _   
          | |               | |  
  _ __ ___| |__   ___   ___ | |_ 
 | '__/ _ \ '_ \ / _ \ / _ \| __|
@@ -12,6 +16,7 @@ Install my-project with npm
                                 
                                 "
 ```
+
 ## Optional Bash
 
 Ps: this will erase your bashrc file
