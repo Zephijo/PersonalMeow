@@ -1,9 +1,3 @@
-## Install and Enable ly (Optional) 
-
-```bash
-sudo pacman -S ly && sudo systemctl enable ly
-```
-
 ## Install Essentials 
 
 ```bash
