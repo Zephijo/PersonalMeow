@@ -22,4 +22,6 @@ Ps: this will erase your bashrc file
 
 ## Or Paste This into PS1 In .Bashrc
 
+```bash
 PS1='\[\e[38;5;223;1m\][\[\e[38;5;186m\]\A\[\e[38;5;223m\]]\[\e[38;5;218m\]@\[\e[38;5;149m\]\u\[\e[38;5;212m\]~\w\[\e[0m\]\n \[\e[38;5;142;1m\]~\[\e[38;5;212m\]\\$\[\e[0m\]'
+```
