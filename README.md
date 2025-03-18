@@ -16,7 +16,7 @@
 Ps: this will erase your bashrc file
 
 ```bash
-  it clone https://github.com/Zephijo/PersonalMeow.git && cp ~/PersonalMeow/bashrc ~/.bashrc && rm -rf ~/PersonalMeow
+  git clone https://github.com/Zephijo/PersonalMeow.git && cp ~/PersonalMeow/bashrc ~/.bashrc && rm -rf ~/PersonalMeow
 ```
 
 ## Or Paste This into PS1 In .Bashrc
